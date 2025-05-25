@@ -1,9 +1,12 @@
+# N-grams 🇳
+# Codédex 
+
 import nltk
 from nltk import word_tokenize
 from nltk.util import ngrams
 from collections import Counter
 nltk.download('punkt')
-sample_text = "I am learning NLP( Natural Language Processing)"
+sample_text = "I am learning NLP (Natural Language Processing)"
 tokens = word_tokenize(sample_text)
 
 # Unigram
